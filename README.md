@@ -7,13 +7,6 @@
 
 This repository implements and compares two identical BCG (Ballistocardiography) signal processing pipelines for non-contact heart rate (HR) and respiratory rate (RR) estimation from a mattress-embedded fiber optic sensor.
 
-| Language | MAE (BPM) | RMSE (BPM) | Pearson r | Exec. Time (s) | Memory (MB) |
-|----------|-----------|------------|-----------|----------------|-------------|
-| **Python** | 2.75 | 3.58 | 0.6843 | 0.0863 | 0.038 |
-| **Mojo** | 2.75 | 3.58 | 0.6843 | 0.000123 | 0.000145 |
-
-✅ **Identical accuracy** — Mojo is **~700× faster** and uses **262× less memory**
-
 ---
 
 ## Repository Structure
