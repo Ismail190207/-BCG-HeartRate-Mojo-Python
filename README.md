@@ -160,18 +160,6 @@ timestamp_utc_ms,sensor_amplitude
 
 ## Results
 
-### Accuracy Metrics (n = 111 windows)
-
-| Metric | Python | Mojo |
-|--------|--------|------|
-| MAE (BPM) | 2.75 | 2.75 |
-| RMSE (BPM) | 3.58 | 3.58 |
-| MAPE (%) | 2.71 | 2.71 |
-| Pearson r | 0.6843 | 0.6843 |
-| P-value | < 0.001 | < 0.001 |
-| BA Bias (BPM) | 0.80 | 0.80 |
-| LoA (BPM) | [−6.08, 7.67] | [−6.08, 7.67] |
-
 ### Computational Benchmark
 
 | Metric | Python | Mojo | Speedup |
